@@ -1,0 +1,36 @@
+{
+  "name": "fastret-framework",
+  "version": "1.0.0",
+  "description": "Fastest rest api test suite builder ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadkazmi42/fastret-framework.git"
+  },
+  "keywords": [
+    "rest-api",
+    "test",
+    "test-suite",
+    "rest-api-test",
+    "fastret",
+    "fastret-framework"
+  ],
+  "author": "Arshad Kazmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arshadkazmi42/fastret-framework/issues"
+  },
+  "homepage": "https://github.com/arshadkazmi42/fastret-framework#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.11.1",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^6.0.1"
+  },
+  "dependencies": {
+    "fastret": "^1.0.0"
+  }
+}
