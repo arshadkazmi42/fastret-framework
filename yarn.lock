@@ -77,6 +77,11 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+arr-contains@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/arr-contains/-/arr-contains-1.0.0.tgz#7ed645885a36df439577655f4670a60857d00d4b"
+  integrity sha512-1fjgj8eGEdmmrhP63ArnqK5j8C/7DUCN8/2KYQEbbsK3R4nerTbzFOmwDXx7ftNYQjVD92X3qdq98JDJtZ81ow==
+
 arr-diff@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/arr-diff/-/arr-diff-4.0.0.tgz#d6461074febfec71e7e15235761a329a5dc7c520"
@@ -1273,6 +1278,14 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+
+json-key-validate@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/json-key-validate/-/json-key-validate-1.0.0.tgz#20a3fef5c356febc5cfacce0246f038854d187c8"
+  integrity sha512-fbzUuPm/3RCElqHRirrHxtFNmLyRDysFyE2ugdpvBOvsvDb0bdzxZUfLrNQD8kQis7KnAbLtBlqy4YBRgfJyaw==
+  dependencies:
+    arr-contains "^1.0.0"
+    is-obj "^1.0.1"
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"

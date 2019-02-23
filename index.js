@@ -1,8 +1,11 @@
 const ora = require('ora');
 const isObj = require('is-obj');
 const fastRet = require('fastret');
+const jkValidate = require('json-key-validate');
 
 const spinner = ora();
+
+const REQUIRED_KEYS = ['name', 'url', 'method', 'response'];
 
 
 function FastRet(data) {
@@ -10,9 +13,13 @@ function FastRet(data) {
     throw new Error('Invalid JSON');
   }
 
+  // Validates if data has required parameters
+  if (!this.isValid(data)) {
+    throw new Error('Required Parameters Missing');
+  }
+
   this.data = data;
   this.results = [];
-  this.requiredKeys = ['name', 'url', 'method', 'response']
 }
 
 // Execute the tests and store results
@@ -35,27 +42,26 @@ FastRet.prototype.execute = async function() {
     // Stop Spinner
     // Show tick or cross based on test result
     if (isPassed) {
-      spinner.succeed([`${data.name} passed`]);
+      spinner.succeed([`Passed: ${data.name}`]);
     } else {
-      spinner.fail([`${data.name} failed`]);
+      spinner.fail([`Failed: ${data.name}`]);
     }
   }
 };
 
-FastRet.prototype.isValid = function() {
-  if (!this.data) {
+FastRet.prototype.isValid = function(data) {
+  if (!data) {
     return false;
   }
 
-  for (let i=0; i<this.data.length; i++) {
-    const keys = Object.keys(this.data[i]);
-    for (let j=0; j<this.requiredKeys.length; j++) {
-      //
+  for (let i=0; i<data.length; i++) {
+    if (!jkValidate(data[i], REQUIRED_KEYS)) {
+      return false;
     }
   }
 
   return true;
-}
+};
 
 
 module.exports = FastRet;
