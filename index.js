@@ -49,6 +49,7 @@ FastRet.prototype.execute = async function() {
   }
 };
 
+// Validates if input test api structure contains all required parameters
 FastRet.prototype.isValid = function(data) {
   if (!data) {
     return false;

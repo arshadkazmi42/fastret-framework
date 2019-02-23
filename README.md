@@ -49,11 +49,34 @@ const TEST_API = [
 ];
 
 const fastRetSuite = new FastRet(TEST_API);
+
+// Executes all the tests
+fastRetSuite.execute();
+
 // Output
 // ✔ Passed: GET API TEST
 // ✖ Failed: GET API WRONG TEST
 
 ```
+
+## API
+
+#### `execute()`
+
+Executes all the tests, shows test results in console. Also stores all the test results in `results`
+
+#### `isValid()`
+
+Validates if the input json contains all the required parameters
+
+#### `this.data`
+
+Contains the complete input test json
+
+#### `this.results`
+
+Contains all the tests results of `execute()` api
+> This gets updated once execute api is completed.
 
 ## Contributing
 
