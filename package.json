@@ -4,7 +4,9 @@
   "description": "Fastest rest api test suite builder ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --ignore-path .gitignore .",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "node_modules/mocha/bin/mocha tests/"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,8 @@
     "mocha": "^6.0.1"
   },
   "dependencies": {
-    "fastret": "^1.0.0"
+    "fastret": "^1.0.0",
+    "is-obj": "^1.0.1",
+    "ora": "^3.1.0"
   }
 }
