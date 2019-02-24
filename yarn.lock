@@ -411,10 +411,10 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
-deep-eq-skip@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/deep-eq-skip/-/deep-eq-skip-1.0.1.tgz#8976a4fe6d04b2ebe96e8ca6dafdc7874a9b423a"
-  integrity sha512-mCsMcJhTLdwue4ykpuCXm70pwMfHqtFyGvjK+la5BJmWYi1YTnmGhuY+DbPJB9DPMXT04WkyNUctDdz9bKHOSg==
+deep-eq-skip@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/deep-eq-skip/-/deep-eq-skip-1.0.2.tgz#764dd4078fc4a355714c1d00e77d199d409f6f2f"
+  integrity sha512-G9tAm4q8JrpbIbphyUSEsWVlYe2j8OEvNzJ+RdBy1HPOJz1I/KhgErqSTlgoKifgAvwOXwrE3PWnig/4apJqvQ==
   dependencies:
     is-obj "^1.0.1"
 
@@ -738,12 +738,12 @@ fast-levenshtein@~2.0.4:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fastret@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/fastret/-/fastret-1.0.0.tgz#d05cfa81e182f8b64f5ce3e0d4770066e5c50dd0"
-  integrity sha512-Dxy4e54aNRhVbC0zo/BNuuQHwe/cwLDfW43amQfNmqHdko8aMlvk/lK7Sr42V8Wyr9q9yRkkHcXJyfcV9EzPSQ==
+fastret@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fastret/-/fastret-1.0.1.tgz#3c5e4ae7958ee076bb927c007db8cc6112084b73"
+  integrity sha512-6TORtD3diw18o8ULeBpR08pEwe/xvhDVVEUu1AibK4CJ2Ka/27e7fvjxBv+fXxq1dz/TENA3Tv4iQL/BR2+wGA==
   dependencies:
-    deep-eq-skip "^1.0.1"
+    deep-eq-skip "^1.0.2"
     is-obj "^1.0.1"
     request "^2.88.0"
     request-promise "^4.2.4"
