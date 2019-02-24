@@ -31,12 +31,20 @@ FastRet.prototype.execute = async function() {
     spinner.start([data.name]);
 
     // Calls the api and validates the response with expected response
-    const isPassed = await fastRet(data);
+    let isPassed = false;
+    let errorMessage = '';
+    try {
+      isPassed = await fastRet(data);
+    } catch (err) {
+      isPassed = false;
+      errorMessage = err.message;
+    }
 
     // Storing test results
     this.results.push({
       name: data.name,
-      passed: isPassed
+      passed: isPassed,
+      errorMessage: errorMessage
     });
 
     // Stop Spinner
@@ -44,7 +52,7 @@ FastRet.prototype.execute = async function() {
     if (isPassed) {
       spinner.succeed([`Passed: ${data.name}`]);
     } else {
-      spinner.fail([`Failed: ${data.name}`]);
+      spinner.fail([`Failed: ${data.name} => (${errorMessage})`]);
     }
   }
 };

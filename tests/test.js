@@ -32,6 +32,20 @@ const TEST_API = [
     }
   },
   {
+    'name': 'INVALID API',
+    'url': 'https://jsonplaceholder.typicode.com/todos2/2',
+    'headers': {},
+    'body': {},
+    'method': 'GET',
+    'skip_keys': ['title'],
+    'response': {
+      'userId': 1,
+      'id': 1,
+      'title': 'delectus aut aute',
+      'completed': false
+    }
+  },
+  {
     'name': 'POST API TEST',
     'url': 'https://jsonplaceholder.typicode.com/posts',
     'headers': {},

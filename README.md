@@ -76,6 +76,16 @@ Contains the complete input test json
 #### `this.results`
 
 Contains all the tests results of `execute()` api
+
+###### Data Structure
+```json
+{
+  "name": "NAME_OF_THE_API",
+  "isPassed": "PASSED_STATUS",
+  "errorMessage": "ERROR_MESSAGE" // if api failed with some error message
+}
+```
+
 > This gets updated once execute api is completed.
 
 ## Contributing
