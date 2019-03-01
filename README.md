@@ -78,7 +78,7 @@ Contains the complete input test json
 Contains all the tests results of `execute()` api
 
 ###### Data Structure
-```json
+```javascript
 {
   "name": "NAME_OF_THE_API",
   "isPassed": "PASSED_STATUS",
