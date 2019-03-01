@@ -738,10 +738,10 @@ fast-levenshtein@~2.0.4:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fastret@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/fastret/-/fastret-1.0.1.tgz#3c5e4ae7958ee076bb927c007db8cc6112084b73"
-  integrity sha512-6TORtD3diw18o8ULeBpR08pEwe/xvhDVVEUu1AibK4CJ2Ka/27e7fvjxBv+fXxq1dz/TENA3Tv4iQL/BR2+wGA==
+fastret@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/fastret/-/fastret-1.1.0.tgz#cfd9127d42d194e43e7419ea37e51d59f417e408"
+  integrity sha512-4i/oe3Zldji6Ogp6gIy5nW53+RXFWRvY5xFneO5bXP/OXW4t6GUwQodz5vs7l/mJZTDeykFJjEBPNYAWMKhaMw==
   dependencies:
     deep-eq-skip "^1.0.2"
     is-obj "^1.0.1"

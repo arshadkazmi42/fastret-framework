@@ -1,6 +1,6 @@
 {
   "name": "fastret-framework",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fastest rest api test suite builder ",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "mocha": "^6.0.1"
   },
   "dependencies": {
-    "fastret": "^1.0.1",
+    "fastret": "^1.1.0",
     "is-obj": "^1.0.1",
     "json-key-validate": "^1.0.0",
     "ora": "^3.1.0"
