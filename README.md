@@ -1,6 +1,7 @@
 # fastret-framework
 
 [![Build Status](https://travis-ci.com/arshadkazmi42/fastret-framework.svg?branch=master)](https://travis-ci.com/arshadkazmi42/fastret-framework)
+[![LICENSE](https://img.shields.io/npm/l/fastret-framework.svg)](https://github.com/arshadkazmi42/fastret-framework/LICENSE)
 
 Fastest rest api test suite builder
 
