@@ -92,7 +92,7 @@ describe('Generate Test Suite', () => {
     await fastRetSuite.execute();
     expect(fastRetSuite.results.length).to.greaterThan(0);
     expect(fastRetSuite.results.length).to.equal(fastRetSuite.data.length);
-  });
+  }).timeout(3000);
   it('should throw an error for params missing', async () => {
     try {
       new FastRet(DUMMY_DATA_WRONG);
