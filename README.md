@@ -1,9 +1,12 @@
 # fastret-framework
-
-[![Build Status](https://travis-ci.com/arshadkazmi42/fastret-framework.svg?branch=master)](https://travis-ci.com/arshadkazmi42/fastret-framework)
-[![LICENSE](https://img.shields.io/npm/l/fastret-framework.svg)](https://github.com/arshadkazmi42/fastret-framework/LICENSE)
+[![Build](https://img.shields.io/travis/com/arshadkazmi42/fastret-framework.svg)](https://travis-ci.com/arshadkazmi42/fastret-framework/)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/fastret-framework.svg)](https://github.com/arshadkazmi42/fastret-framework)
+[![LICENSE](https://img.shields.io/npm/l/fastret-framework.svg)](https://github.com/arshadkazmi42/fastret-framework/blob/master/LICENSE)
 [![NPM Downloads](https://img.shields.io/npm/dt/fastret-framework.svg)](https://www.npmjs.com/package/fastret-framework)
+[![NPM Version](https://img.shields.io/npm/v/fastret-framework.svg)](https://www.npmjs.com/package/fastret-framework)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/fastret-framework.svg)](https://github.com/arshadkazmi42/fastret-framework/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/fastret-framework.svg)](https://github.com/arshadkazmi42/fastret-framework/commits/master)
+
 
 Fastest rest api test suite builder
 
