@@ -1,6 +1,6 @@
 {
   "name": "fastret-framework",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fastest rest api test suite builder ",
   "main": "index.js",
   "scripts": {
